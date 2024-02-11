@@ -1,0 +1,133 @@
+.Container_box{
+    width: 1200px;
+    height: 660px;
+    margin-top: 10px;
+    background-color: yellowgreen;
+    display: flex;
+}
+
+
+.Menu{
+  width: 330px;
+    height: 100%;
+    position: relative;
+}
+
+.Menu #sidebar{
+  width: 170px;
+  height: 100%;
+  background: #404040;
+  overflow: hidden;
+  }
+
+  #sidebar .title{
+    color: #f2f2f2;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 65px;
+    background: #333;
+    text-align: center;
+}
+
+#sidebar .list-item{
+  position: relative;
+  background: #404040;
+  height: 100%;
+  width: 100%;
+  list-style: none;
+}
+
+#sidebar .list-item li{
+  margin-right: 50px;
+  padding-left: 5px;
+  line-height: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+#sidebar .list-item li:hover{
+ background: yellow;
+}
+
+#sidebar .list-item a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+
+
+#sidebar .list-item .alt-icons{
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+
+}
+
+.Container-content{
+  position: relative;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ width: 700px;
+ height: 600px;
+ background: blue;
+}
+
+.Container-content input{
+  background: black;
+}
+
+.Container-content .Form-1{
+  display: flex;
+  gap: 15px;
+}
+
+.Container-content .Form-2{
+  display: flex;
+  gap: 15px;
+}
+
+.Container-content .Form-3{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.Container-content .Form-4{
+  display: flex;
+  gap: 15px;
+}
+
+.Container-content input{
+  width: 300px;
+  padding: 6px;
+}
+
+.Container-content .input-box{
+  width: 500px;
+}
+
+.Text-content{
+    display: flex;
+    flex-direction: column;
+
+   
+}
+
+.Form-box{
+  display: flex;
+  flex-direction: column;
+  column-gap: 15px;
+}
+
+.Container-content .text-box{
+  position: absolute;
+  top: 40px;
+}
